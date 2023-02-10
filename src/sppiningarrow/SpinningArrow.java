@@ -66,6 +66,9 @@ public class SpinningArrow extends JFrame implements ActionListener {
         });
     }
 
+    /**
+     * 
+     */
     @Override
     public void actionPerformed(ActionEvent e) {
         angle = 0;
