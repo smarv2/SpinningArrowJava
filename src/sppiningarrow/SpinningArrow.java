@@ -72,6 +72,11 @@ public class SpinningArrow extends JFrame implements ActionListener {
         timer.start();
     }
 
+    /**
+     * Metodo getRotatedImage.
+     * @param angle
+     * @return
+     */
     private Image getRotatedImage(int angle) {
         //ImageIcon icon = new ImageIcon("candado.jpg");
         ImageIcon icon = new ImageIcon (SpinningArrow.class.getResource("arrow.png"));
